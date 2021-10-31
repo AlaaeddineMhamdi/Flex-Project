@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 0;
+    background-color: transparent;
+}
+header{
+    background-image: url("hello.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center ;
+    position: relative;
+}
+.nav-area li{
+    display: inline-block;
+    
+}
+.nav-area li a{
+    color: aqua;
+    padding: 5px 20px;
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: none;
+}
+.nav-area li a:hover{
+    background: aquamarine;
+    color: #333;
+}
+.section{
+    background-image: url("hello2.jpg");
+    
+    background-position: center  ;
+}
+.h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.h2{
+    color: blueviolet;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.border2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.border{
+   
+
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.border2{
+    border: 2px solid white;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.border3{
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+}
+.Welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30% ;
+    text-align: center;
+}
+.Welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.Welcome-text a{
+    color: aqua;
+    border: 1px solid #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.Welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+.section2{
+    background-image: url("hello6.jpg");
+    background-size: cover;
+    background-position: center  ;
+}
+.section3{
+    background-image: url("hello5.jpg");   
+    background-position: center  ;
+}
+.logo img{
+    width: 80px;
+    float: left;
+    height: auto;
+    margin-left: 100px;
+}
+footer{
+    color: aqua;
+    background-image: url("footer.png");
+    background-attachment: fixed;
+    background-position: center center ;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+footer a:hover{
+    background: aquamarine;
+    color: white;
+    
+}
